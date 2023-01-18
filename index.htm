@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	
+	<title>Энциклопедия в мире криптовалют, ICO и майнинга — miningbitcoinguide.com</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v13.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="miningbitcoinguide.com - информационный ресурс о криптовалютах, процессе майнинга, ICO, способах инвестирования и технологии блокчейн."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://miningbitcoinguide.com/" />
+<link rel="next" href="https://miningbitcoinguide.com/page/2" />
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Энциклопедия в мире криптовалют, ICO и майнинга — miningbitcoinguide.com" />
+<meta property="og:description" content="miningbitcoinguide.com - информационный ресурс о криптовалютах, процессе майнинга, ICO, способах инвестирования и технологии блокчейн." />
+<meta property="og:url" content="https://miningbitcoinguide.com/" />
+<meta property="og:site_name" content="miningbitcoinguide.com" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://miningbitcoinguide.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.14'  media='all' />
+<link rel='stylesheet' id='fancybox-for-wp-css'  href='https://miningbitcoinguide.com/wp-content/plugins/fancybox-for-wordpress/assets/css/fancybox.css?ver=1.3.4'  media='all' />
+<link rel='stylesheet' id='theme-css-css'  href='https://miningbitcoinguide.com/wp-content/themes/miningbitcoinguide_new/style.css?ver=5.3.14'  media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://miningbitcoinguide.com/wp-content/tablepress-combined.min.css?ver=34'  media='all' />
+<script  src='//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=5.3.14'></script>
+<script  src='https://miningbitcoinguide.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script  src='https://miningbitcoinguide.com/wp-content/plugins/fancybox-for-wordpress/assets/js/jquery.fancybox.js?ver=1.3.4'></script>
+<script  src='https://miningbitcoinguide.com/wp-content/themes/miningbitcoinguide_new/js/slick.min.js?ver=5.3.14'></script>
+<script  src='https://miningbitcoinguide.com/wp-content/themes/miningbitcoinguide_new/js/scripts.js?ver=5.3.14'></script>
+<link rel='https://api.w.org/' href='https://miningbitcoinguide.com/wp-json/' />
+
+<!-- Fancybox for WordPress v3.2.7 -->
+<style type="text/css">
+	.fancybox-slide--image .fancybox-content{background-color: #FFFFFF}div.fancybox-caption{display:none !important;}
+	
+	img.fancybox-image{border-width:10px;border-color:#FFFFFF;border-style:solid;height:auto;}
+	div.fancybox-bg{background-color:rgba(102,102,102,0.3);opacity:1 !important;}div.fancybox-content{border-color:#FFFFFF}
+	div#fancybox-title{background-color:#FFFFFF}
+	div.fancybox-content{background-color:#FFFFFF}
+	div#fancybox-title-inside{color:#333333}
+	
+	
+	
+	div.fancybox-caption p.caption-title{display:inline-block}
+	div.fancybox-caption p.caption-title{font-size:14px}
+	div.fancybox-caption p.caption-title{color:#333333}
+	div.fancybox-caption {color:#333333}div.fancybox-caption p.caption-title {background:#fff; width:auto;padding:10px 30px;}div.fancybox-content p.caption-title{color:#333333;margin: 0;padding: 5px 0;}
+</style><script >
+	jQuery(function(){
+
+		jQuery.fn.getTitle = function() { // Copy the title of every IMG tag and add it to its parent A so that fancybox can show titles
+			var arr = jQuery("a[data-fancybox]");
+									jQuery.each(arr, function() {
+										var title = jQuery(this).children("img").attr("title");
+										 var caption = jQuery(this).next("figcaption").html();
+                                        if(caption && title){jQuery(this).attr("title",title+" " + caption)}else if(title){ jQuery(this).attr("title",title);}else if(caption){jQuery(this).attr("title",caption);}
+									});			}
+
+		// Supported file extensions
+
+                var thumbnails = jQuery("a:has(img)").not(".nolightbox").not('.envira-gallery-link').not('.ngg-simplelightbox').filter(function () {
+            return /\.(jpe?g|png|gif|mp4|webp|bmp|pdf)(\?[^/]*)*$/i.test(jQuery(this).attr('href'))
+        });
+        
+
+		// Add data-type iframe for links that are not images or videos.
+        var iframeLinks = jQuery('.fancyboxforwp').filter( function() { return ! /\.(jpe?g|png|gif|mp4|webp|bmp|pdf)(\?[^/]*)*$/i.test(jQuery(this).attr('href')) }).filter( function() { return ! /vimeo|youtube/i.test(jQuery(this).attr('href')) });
+        iframeLinks.attr({ "data-type" : "iframe" }).getTitle();
+
+				// Gallery All
+		thumbnails.addClass("fancyboxforwp").attr("data-fancybox","gallery").getTitle();
+        iframeLinks.attr({ "data-fancybox":"gallery" }).getTitle();
+
+		// Gallery type NONE
+		
+
+
+		// Call fancybox and apply it on any link with a rel atribute that starts with "fancybox", with the options set on the admin panel
+		jQuery("a.fancyboxforwp").fancyboxforwp({
+			loop: false,
+			smallBtn: true,
+			zoomOpacity: "auto",
+			animationEffect: "fade",
+			animationDuration: 500,
+			transitionEffect: "fade",
+			transitionDuration : "300",
+			overlayShow: true,
+			overlayOpacity: "0.3",
+			titleShow: true,
+			titlePosition: "inside",
+			keyboard: true,
+			showCloseButton: true,
+			arrows: true,
+			clickContent: false,
+            clickSlide: "close",
+            mobile:{
+                clickContent: function(current, event) {
+                    return current.type === "image" ? "toggleControls" : false;
+                },
+                clickSlide: function(current, event) {
+                    return current.type === "image" ? "close" : "close";
+                },
+            },
+			wheel: false,
+			toolbar: true,
+			preventCaptionOverlap: true,
+			onInit: function() { },			onDeactivate: function() { },			beforeClose: function() { },			afterShow: function() { },			afterClose: function() { },			caption : function( instance, item ) {var testing = jQuery(this).context.title;var caption = jQuery(this).data('caption') || '';if ( item.type === 'image' && testing.length ) {caption = (caption.length ? caption + '<br />' : '') + '<p class="caption-title">'+testing+'</p>' ;}return caption;},
+			afterLoad : function( instance, current ) {current.$content.append('<div class=\"fancybox-custom-caption inside-caption\" style=\" position: absolute;left:0;right:0;color:#000;margin:0 auto;bottom:0;text-align:center;background-color:#FFFFFF \">' + current.opts.caption + '</div>');},
+					});
+		
+	})
+</script>
+<!-- END Fancybox for WordPress -->
+<script charset="UTF-8" src="//cdn.sendpulse.com/28edd3380a1c17cf65b137fe96516659/js/push/ca100a22b843f3ea6f40cf5dc77e9b7b_1.js" async></script><style>
+.ai-viewports                 {--ai: 1;}
+.ai-viewport-3                { display: none !important;}
+.ai-viewport-2                { display: none !important;}
+.ai-viewport-1                { display: inherit !important;}
+.ai-viewport-0                { display: none !important;}
+@media (min-width: 768px) and (max-width: 979px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-2                { display: inherit !important;}
+}
+@media (max-width: 767px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-3                { display: inherit !important;}
+}
+</style>
+ 
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109264107-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-109264107-1');
+	</script>
+	<!-- /Global site tag (gtag.js) - Google Analytics -->
+</head>
+<body>
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+	    (function (d, w, c) {
+	        (w[c] = w[c] || []).push(function() {
+	            try {
+	                w.yaCounter45776187 = new Ya.Metrika({
+	                    id:45776187,
+	                    clickmap:true,
+	                    trackLinks:true,
+	                    accurateTrackBounce:true,
+	                    webvisor:true
+	                });
+	            } catch(e) { }
+	        });
+
+	        var n = d.getElementsByTagName("script")[0],
+	            s = d.createElement("script"),
+	            f = function () { n.parentNode.insertBefore(s, n); };
+	        s.type = "text/javascript";
+	        s.async = true;
+	        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+	        if (w.opera == "[object Opera]") {
+	            d.addEventListener("DOMContentLoaded", f, false);
+	        } else { f(); }
+	    })(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/45776187" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
+	<!--LiveInternet counter-->
+	<script type="text/javascript">
+	new Image().src = "//counter.yadro.ru/hit?r"+
+	escape(document.referrer)+((typeof(screen)=="undefined")?"":
+	";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+	screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+	";"+Math.random();</script>
+	<!--/LiveInternet-->
+
+	<div class="main">
+		<!--[if lte IE 10]><div class="outdatedBrowserWarning">Вы используете устаревший браузер. Пожалуйста, обновите ваш браузер для корректного отображения страницы.</div><![endif]-->
+		<div class="wrapper">
+			<header class="header">
+				<div class="wrap wrap_header">
+					<div class="header-logo-wrap">
+												    <div class="logo"><span class="logo__orange">miningbitcoinguide</span>.com</div>
+						    					</div>
+					<div class="hamburger-icon nav-open">
+						<span class="line line-1">menu-line</span>
+						<span class="line line-2">menu-line</span>
+						<span class="line line-3">menu-line</span>
+					</div>
+					<div class="m-nav">
+						<div class="m-nav__inner">
+							<div class="hamburger-icon nav-close">
+							    <span class="line line-1">menu-line</span>
+							    <span class="line line-2">menu-line</span>
+							    <span class="line line-3">menu-line</span>
+							</div>
+							<nav class="header-menu-box"><ul class="header-menu"><li id="menu-item-280" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-280"><a href="https://miningbitcoinguide.com/news">Новости</a></li>
+<li id="menu-item-170" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-170"><a href="https://miningbitcoinguide.com/kriptovalyuty">Криптовалюты</a>
+<ul class="sub-menu">
+	<li id="menu-item-221" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-221"><a href="https://miningbitcoinguide.com/kriptovalyuty/bitcoin">Биткоин</a></li>
+	<li id="menu-item-4323" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4323"><a href="https://miningbitcoinguide.com/kriptovalyuty/ethereum">Эфириум</a></li>
+	<li id="menu-item-171" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-171"><a href="https://miningbitcoinguide.com/kriptovalyuty/vidy">Альткоины</a></li>
+</ul>
+</li>
+<li id="menu-item-305" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-305"><a href="https://miningbitcoinguide.com/mining">Майнинг</a>
+<ul class="sub-menu">
+	<li id="menu-item-306" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306"><a href="https://miningbitcoinguide.com/mining/sposoby">Способы</a></li>
+	<li id="menu-item-387" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-387"><a href="https://miningbitcoinguide.com/mining/zhelezo">Железо</a></li>
+	<li id="menu-item-1612" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1612"><a href="https://miningbitcoinguide.com/btc-calculator-majninga">Калькулятор майнинга Bitcoin</a></li>
+	<li id="menu-item-10532" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10532"><a href="https://miningbitcoinguide.com/mining/expert">&#171;С блокчейном и шлюзами&#187;</a></li>
+</ul>
+</li>
+<li id="menu-item-997" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-997"><a href="https://miningbitcoinguide.com/trading">Трейдинг</a>
+<ul class="sub-menu">
+	<li id="menu-item-998" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-998"><a href="https://miningbitcoinguide.com/trading/market">Биржи</a></li>
+	<li id="menu-item-1955" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1955"><a href="https://miningbitcoinguide.com/trading/analytics">Аналитика</a></li>
+	<li id="menu-item-1766" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1766"><a href="https://miningbitcoinguide.com/kurs-btc-usd-rub">Курс Bitcoin (BTC)</a></li>
+</ul>
+</li>
+<li id="menu-item-2019" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2019"><a href="https://miningbitcoinguide.com/ico">ICO</a></li>
+<li id="menu-item-2410" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2410"><a href="https://miningbitcoinguide.com/technology">Технологии</a></li>
+</ul></nav><!--noindex-->
+	<div class="search-form">
+	    <form method="get" action="https://miningbitcoinguide.com/">
+	        <input type="text" value="" name="s" placeholder="Поиск..." class="search-form__field">
+	        <input type="submit" value="" class="search-form__button search-open">
+	    </form>
+	</div>
+	<!--/noindex-->						</div>
+					</div>
+				</div>
+			</header>
+			<div class="widget-rate-box" data-id="0, 1, 2">
+				<div class="wrap">
+					<div class="widget-rate">
+					</div>
+					<div class="widget-rate-link">
+						<a href="http://bit.ly/2G1ewDK" target="_blank" rel="noopener nofollow">Купить Bitcoin</a>
+					</div>
+				</div>
+			</div>
+			<div class="wrap">
+	<main class="content">
+					<div class="slider-box">
+				<div class="title">Главное</div>
+				<div class="slider">
+											<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/47/bb1c376888f4e47_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/47/bb1c376888f4e47_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/47/bb1c376888f4e47_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/47/bb1c376888f4e47_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/47/bb1c376888f4e47_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Теперь Huobi обслуживает и рублевые карты">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/news/huobi-nachala-obsluzhivat-rublevye-karty">Теперь Huobi обслуживает и рублевые карты</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">10328</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/19/3c52dc15bebf919_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/19/3c52dc15bebf919_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/19/3c52dc15bebf919_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/19/3c52dc15bebf919_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/19/3c52dc15bebf919_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Минфин предложил ввести высокие штрафы за незаконное использование криптовалют">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/news/minfin-predlozhil-vvesti-shtrafy-za-nezakonnyj-oborot-kriptovalyut">Минфин предложил ввести высокие штрафы за незаконное использование криптовалют</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">8025</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/07/cc94b85bfec2407_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/07/cc94b85bfec2407_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/07/cc94b85bfec2407_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/07/cc94b85bfec2407_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/07/cc94b85bfec2407_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Регулирование, налоги, штрафы: что изменится в криптовалютном законодательстве с 1 января">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/news/izmeneniya-v-zakonah-v-2021">Регулирование, налоги, штрафы: что изменится в криптовалютном законодательстве с 1 января</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">8688</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/a2/631f66c9555c5a2_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/a2/631f66c9555c5a2_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/a2/631f66c9555c5a2_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/a2/631f66c9555c5a2_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/a2/631f66c9555c5a2_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Сервис маржинальной торговли будет закрыт до конца 2020: последнее заявление Coinbase">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/news/coinbase-zakroet-marzhinalnuyu-torgovlyu">Сервис маржинальной торговли будет закрыт до конца 2020: последнее заявление Coinbase</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">7868</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/ed/1a6d033a08c32ed_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/ed/1a6d033a08c32ed_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/ed/1a6d033a08c32ed_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/ed/1a6d033a08c32ed_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/ed/1a6d033a08c32ed_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Майнеров могут лишать свободы на срок до 3 лет: Минфин готовит новые поправки">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/news/v-rossii-gotovyatsya-novye-popravki-po-nalogovym-otchetam-majnerov">Майнеров могут лишать свободы на срок до 3 лет: Минфин готовит новые поправки</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">8125</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/52/27d21394072bb52_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/52/27d21394072bb52_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/52/27d21394072bb52_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/52/27d21394072bb52_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/52/27d21394072bb52_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Криптовалюты под угрозой: какие поправки готовит Госдума">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/news/gosduma-mozhet-uzhestochit-kontrol-kriptovalyut">Криптовалюты под угрозой: какие поправки готовит Госдума</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">8051</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/34/a70689f444ed934_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/34/a70689f444ed934_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/34/a70689f444ed934_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/34/a70689f444ed934_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/34/a70689f444ed934_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Мнение: ужесточение регулирования криптовалют приведет к росту рынка">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/news/popravki-minfina-rf-pozitivno-otrazyatsya-na-btc-industrii">Мнение: ужесточение регулирования криптовалют приведет к росту рынка</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">8042</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/16/d032a27c4b37016_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/16/d032a27c4b37016_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/16/d032a27c4b37016_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/16/d032a27c4b37016_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/16/d032a27c4b37016_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="MasterCard запустила песочницу для тестирования государственных криптовалют">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/news/mastercard-zapustila-platformu-dlya-testirovaniya-gosudarstvennyh-kriptovalyut">MasterCard запустила песочницу для тестирования государственных криптовалют</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">8205</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/60/184d654e95be360_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/60/184d654e95be360_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/60/184d654e95be360_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/60/184d654e95be360_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/60/184d654e95be360_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Телеграм запускает TON Crystal: первые токены уже распределены между участниками">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/news/free-ton-prodolzhit-delo-rezultaty-poiska-vse-rezultaty-telegram-open-network">Телеграм запускает TON Crystal: первые токены уже распределены между участниками</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">8811</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/c8/39988416c2adcc8_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/c8/39988416c2adcc8_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/c8/39988416c2adcc8_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/c8/39988416c2adcc8_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/c8/39988416c2adcc8_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Совет Федерации одобрил законопроект «О цифровых финансовых активах»">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/news/sovet-federatsii-podderzhal-zakon-o-tsfa">Совет Федерации одобрил законопроект «О цифровых финансовых активах»</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">8244</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/a5/b997071eb7253a5_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/a5/b997071eb7253a5_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/a5/b997071eb7253a5_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/a5/b997071eb7253a5_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/a5/b997071eb7253a5_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Криптовалюта Libra от Facebook — характеристики и перспективы">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/kriptovalyuty/vidy/libra">Криптовалюта Libra от Facebook — характеристики и перспективы</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">6228</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/1d/1fb0a50e570211d_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/1d/1fb0a50e570211d_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/1d/1fb0a50e570211d_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/1d/1fb0a50e570211d_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/1d/1fb0a50e570211d_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Как организовать майнинг биткоина: пошаговая инструкция">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/mining/sposoby/instruktsiya-po-majningu-btc">Как организовать майнинг биткоина: пошаговая инструкция</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">20688</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/65/6b4ebf38c199d65_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/65/6b4ebf38c199d65_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/65/6b4ebf38c199d65_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/65/6b4ebf38c199d65_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/65/6b4ebf38c199d65_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Обзор 7 способов заработка биткоинов с расчетом дохода">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/kriptovalyuty/bitcoin/kak-zarabotat-btc">Обзор 7 способов заработка биткоинов с расчетом дохода</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">14270</div>
+						    </div>
+						</div>
+												<div class="slider__item">
+							<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/af/c8395fcbad14eaf_750x468.jpg" width="750" height="468" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/af/c8395fcbad14eaf_950x592.jpg 950w, https://miningbitcoinguide.com/wp-content/cache/thumb/af/c8395fcbad14eaf_450x280.jpg 450w, https://miningbitcoinguide.com/wp-content/cache/thumb/af/c8395fcbad14eaf_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/af/c8395fcbad14eaf_750x468.jpg 750w" sizes="100vw" class="slider__item-img" alt="Биржа Binance: обзор условий и возможностей торговли">						    <div class="slider__item-text">
+					    	    <div class="slider__item-title">
+					    			<a href="https://miningbitcoinguide.com/trading/market/binance">Биржа Binance: обзор условий и возможностей торговли</a>
+					    	    </div>
+				    	    	<div class="count-views count-views_slider">53525</div>
+						    </div>
+						</div>
+										</div>	
+			</div>
+						    <div class="news-box">
+			    	<div class="title title_news">Новости</div>
+				    <div class="news ajax_pagination">
+				        <div class="news__item">
+	<div class="news__item-box">
+		<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/6a/eea2f5d6f22596a_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/6a/eea2f5d6f22596a_400x248.jpg 400w, https://miningbitcoinguide.com/wp-content/cache/thumb/6a/eea2f5d6f22596a_233x145.jpg 233w" sizes="100vw" class="news__item-img" alt="Британские правоохранительные органы призвали регулировать сервисы, микширующие криптовалютные операции">		<div class="count-views count-views_abs">6009</div>
+	</div>
+	<div class="news__item-text">
+    	<div class="news__item-title-box">
+        	<div class="news__item-title">
+				<a href="https://miningbitcoinguide.com/news/britanskie-pravoohraniteli-prizvali-regulirovat-mikshiruyushhie-servisy">Британские правоохранительные органы призвали регулировать сервисы, микширующие криптовалютные операции</a>
+        	</div>
+    	</div>	
+    	<time class="news__item-date" datetime="2022-03-15">15 марта 2022</time>
+	</div>
+</div><div class="news__item">
+	<div class="news__item-box">
+		<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/df/d1dcbba26c420df_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/df/d1dcbba26c420df_400x248.jpg 400w, https://miningbitcoinguide.com/wp-content/cache/thumb/df/d1dcbba26c420df_233x145.jpg 233w" sizes="100vw" class="news__item-img" alt="Сенатор Кори Букер: США стали мировым лидером по криптовалютам">		<div class="count-views count-views_abs">5869</div>
+	</div>
+	<div class="news__item-text">
+    	<div class="news__item-title-box">
+        	<div class="news__item-title">
+				<a href="https://miningbitcoinguide.com/news/senator-ssha-otmetil-rol-kriptovalyut">Сенатор Кори Букер: США стали мировым лидером по криптовалютам</a>
+        	</div>
+    	</div>	
+    	<time class="news__item-date" datetime="2022-03-14">14 марта 2022</time>
+	</div>
+</div><div class="news__item">
+	<div class="news__item-box">
+		<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/4a/891308bf72f674a_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/4a/891308bf72f674a_400x248.jpg 400w, https://miningbitcoinguide.com/wp-content/cache/thumb/4a/891308bf72f674a_233x145.jpg 233w" sizes="100vw" class="news__item-img" alt="Издание Reuters: за последнюю неделю россияне запросили продажу криптовалюты на $2 млрд">		<div class="count-views count-views_abs">5906</div>
+	</div>
+	<div class="news__item-text">
+    	<div class="news__item-title-box">
+        	<div class="news__item-title">
+				<a href="https://miningbitcoinguide.com/news/rossiyane-massovo-prodayut-kriptovalyutu-v-oae">Издание Reuters: за последнюю неделю россияне запросили продажу криптовалюты на $2 млрд</a>
+        	</div>
+    	</div>	
+    	<time class="news__item-date" datetime="2022-03-13">13 марта 2022</time>
+	</div>
+</div><div class="news__item">
+	<div class="news__item-box">
+		<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/cf/dc38c21c75d49cf_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/cf/dc38c21c75d49cf_400x248.jpg 400w, https://miningbitcoinguide.com/wp-content/cache/thumb/cf/dc38c21c75d49cf_233x145.jpg 233w" sizes="100vw" class="news__item-img" alt="Власти Таиланда ввели налоговые льготы для криптовалютных инвесторов">		<div class="count-views count-views_abs">6045</div>
+	</div>
+	<div class="news__item-text">
+    	<div class="news__item-title-box">
+        	<div class="news__item-title">
+				<a href="https://miningbitcoinguide.com/news/v-tailande-vvodyat-lgoty">Власти Таиланда ввели налоговые льготы для криптовалютных инвесторов</a>
+        	</div>
+    	</div>	
+    	<time class="news__item-date" datetime="2022-03-12">12 марта 2022</time>
+	</div>
+</div><div class="news__item">
+	<div class="news__item-box">
+		<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/22/284faddc04ffa22_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/22/284faddc04ffa22_400x248.jpg 400w, https://miningbitcoinguide.com/wp-content/cache/thumb/22/284faddc04ffa22_233x145.jpg 233w" sizes="100vw" class="news__item-img" alt="Японские криптовалютные биржи начнут соблюдать новые правила FATF с 1 апреля">		<div class="count-views count-views_abs">5762</div>
+	</div>
+	<div class="news__item-text">
+    	<div class="news__item-title-box">
+        	<div class="news__item-title">
+				<a href="https://miningbitcoinguide.com/news/yaponskie-birzhi-nachnut-soblyudat-pravila-fatf">Японские криптовалютные биржи начнут соблюдать новые правила FATF с 1 апреля</a>
+        	</div>
+    	</div>	
+    	<time class="news__item-date" datetime="2022-03-10">10 марта 2022</time>
+	</div>
+</div><div class="news__item">
+	<div class="news__item-box">
+		<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/63/8cd15d2b77b7a63_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/63/8cd15d2b77b7a63_400x248.jpg 400w, https://miningbitcoinguide.com/wp-content/cache/thumb/63/8cd15d2b77b7a63_233x145.jpg 233w" sizes="100vw" class="news__item-img" alt="Правительство Таиланда может позволить туристам из России оплачивать товары криптовалютой">		<div class="count-views count-views_abs">6000</div>
+	</div>
+	<div class="news__item-text">
+    	<div class="news__item-title-box">
+        	<div class="news__item-title">
+				<a href="https://miningbitcoinguide.com/news/tailand-rassmatrivaet-vozmozhnost-oplaty-kriptovalyutoj">Правительство Таиланда может позволить туристам из России оплачивать товары криптовалютой</a>
+        	</div>
+    	</div>	
+    	<time class="news__item-date" datetime="2022-03-09">9 марта 2022</time>
+	</div>
+</div><div class="news__item">
+	<div class="news__item-box">
+		<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/0c/aa027f6b98d2e0c_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/0c/aa027f6b98d2e0c_400x248.jpg 400w, https://miningbitcoinguide.com/wp-content/cache/thumb/0c/aa027f6b98d2e0c_233x145.jpg 233w" sizes="100vw" class="news__item-img" alt="Управляющий Центробанка Пакистана: в блокчейне больше пользы, чем в криптовалютах">		<div class="count-views count-views_abs">5974</div>
+	</div>
+	<div class="news__item-text">
+    	<div class="news__item-title-box">
+        	<div class="news__item-title">
+				<a href="https://miningbitcoinguide.com/news/tsentrobank-pakistana-priznal-blokchejn">Управляющий Центробанка Пакистана: в блокчейне больше пользы, чем в криптовалютах</a>
+        	</div>
+    	</div>	
+    	<time class="news__item-date" datetime="2022-03-07">7 марта 2022</time>
+	</div>
+</div><div class="news__item">
+	<div class="news__item-box">
+		<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/88/728a55307f6d188_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/88/728a55307f6d188_400x248.jpg 400w, https://miningbitcoinguide.com/wp-content/cache/thumb/88/728a55307f6d188_233x145.jpg 233w" sizes="100vw" class="news__item-img" alt="Майнинговый пул BTC.com прекратил обслуживание клиентов из России">		<div class="count-views count-views_abs">5821</div>
+	</div>
+	<div class="news__item-text">
+    	<div class="news__item-title-box">
+        	<div class="news__item-title">
+				<a href="https://miningbitcoinguide.com/news/pul-btc-com-prekratil-obsluzhivat-klientov-iz-rossii">Майнинговый пул BTC.com прекратил обслуживание клиентов из России</a>
+        	</div>
+    	</div>	
+    	<time class="news__item-date" datetime="2022-03-06">6 марта 2022</time>
+	</div>
+</div><div class="news__item">
+	<div class="news__item-box">
+		<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/5e/0398df5d321eb5e_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/5e/0398df5d321eb5e_400x248.jpg 400w, https://miningbitcoinguide.com/wp-content/cache/thumb/5e/0398df5d321eb5e_233x145.jpg 233w" sizes="100vw" class="news__item-img" alt="Центральный банк Израиля: Цифровой шекель может уменьшить количество банковских вкладов">		<div class="count-views count-views_abs">6880</div>
+	</div>
+	<div class="news__item-text">
+    	<div class="news__item-title-box">
+        	<div class="news__item-title">
+				<a href="https://miningbitcoinguide.com/news/bank-izrailya-bespokoitsya-za-tsifrovoj-shekel">Центральный банк Израиля: Цифровой шекель может уменьшить количество банковских вкладов</a>
+        	</div>
+    	</div>	
+    	<time class="news__item-date" datetime="2022-03-05">5 марта 2022</time>
+	</div>
+</div><div class="news__item">
+	<div class="news__item-box">
+		<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/62/7f3bcd1a3a47f62_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/62/7f3bcd1a3a47f62_400x248.jpg 400w, https://miningbitcoinguide.com/wp-content/cache/thumb/62/7f3bcd1a3a47f62_233x145.jpg 233w" sizes="100vw" class="news__item-img" alt="Разработчики Эфириума анонсировали последнее тестирование перед переходом PoS">		<div class="count-views count-views_abs">5760</div>
+	</div>
+	<div class="news__item-text">
+    	<div class="news__item-title-box">
+        	<div class="news__item-title">
+				<a href="https://miningbitcoinguide.com/news/ethereum-gotov-k-poslednemu-testnetu-pered-pos">Разработчики Эфириума анонсировали последнее тестирование перед переходом PoS</a>
+        	</div>
+    	</div>	
+    	<time class="news__item-date" datetime="2022-03-04">4 марта 2022</time>
+	</div>
+</div><div class="news__item">
+	<div class="news__item-box">
+		<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/53/d797c4bd69d7053_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/53/d797c4bd69d7053_400x248.jpg 400w, https://miningbitcoinguide.com/wp-content/cache/thumb/53/d797c4bd69d7053_233x145.jpg 233w" sizes="100vw" class="news__item-img" alt="Европейский парламент не намерен рассматривать запрет биткоина на PoW">		<div class="count-views count-views_abs">7243</div>
+	</div>
+	<div class="news__item-text">
+    	<div class="news__item-title-box">
+        	<div class="news__item-title">
+				<a href="https://miningbitcoinguide.com/news/evropejskij-parlament-peresmotrit-zapret-na-pow">Европейский парламент не намерен рассматривать запрет биткоина на PoW</a>
+        	</div>
+    	</div>	
+    	<time class="news__item-date" datetime="2022-03-03">3 марта 2022</time>
+	</div>
+</div><div class="news__item">
+	<div class="news__item-box">
+		<img src="https://miningbitcoinguide.com/wp-content/cache/thumb/fa/341a3fed3da39fa_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/fa/341a3fed3da39fa_400x248.jpg 400w, https://miningbitcoinguide.com/wp-content/cache/thumb/fa/341a3fed3da39fa_233x145.jpg 233w" sizes="100vw" class="news__item-img" alt="Суд Южной Кореи решил оставить в силе запрет покупки и продажи криптовалют геймерами">		<div class="count-views count-views_abs">5443</div>
+	</div>
+	<div class="news__item-text">
+    	<div class="news__item-title-box">
+        	<div class="news__item-title">
+				<a href="https://miningbitcoinguide.com/news/yuzhnaya-koreya-ostavila-zapret-na-pokupku-kriptovalyuty-gejmerami">Суд Южной Кореи решил оставить в силе запрет покупки и продажи криптовалют геймерами</a>
+        	</div>
+    	</div>	
+    	<time class="news__item-date" datetime="2022-03-02">2 марта 2022</time>
+	</div>
+</div>				    </div>
+				    				        <div class="more-box">
+				            <div class="more"
+				                data-news="10"
+				                data-items="12"
+				                data-offset="12"
+				                data-theme="miningbitcoinguide_new"
+				                data-loading="<span>Загрузка...</span>"><span>Посмотреть еще</span>
+				            </div>
+				        </div>
+				        			    </div>
+			    		    <div class="title title_new">Статьи</div>
+		    <div class="posts ajax_pagination">
+		        <div class="posts__item posts__item_small">
+    <div class="posts__item-box">
+        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/24/91f8f74375f6224_233x145.png" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/24/91f8f74375f6224_635x395.png 635w, https://miningbitcoinguide.com/wp-content/cache/thumb/24/91f8f74375f6224_420x261.png 420w, https://miningbitcoinguide.com/wp-content/cache/thumb/24/91f8f74375f6224_233x145.png 233w" sizes="100vw" class="posts__item-img" alt="Manta Network – проект экосистемы PolkaDot, решающий проблему конфиденциальности">                <a href="https://miningbitcoinguide.com/kriptovalyuty" class="posts__item-cat">Криптовалюты</a>
+        <div class="count-views count-views_abs">4457</div>
+    </div>
+    <div class="posts__item-title">
+        <a href="https://miningbitcoinguide.com/kriptovalyuty/manta-network">Manta Network – проект экосистемы PolkaDot, решающий проблему конфиденциальности</a>
+    </div>
+</div><div class="posts__item posts__item_small">
+    <div class="posts__item-box">
+        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/96/8bf2985a39d8896_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/96/8bf2985a39d8896_635x395.jpg 635w, https://miningbitcoinguide.com/wp-content/cache/thumb/96/8bf2985a39d8896_420x261.jpg 420w, https://miningbitcoinguide.com/wp-content/cache/thumb/96/8bf2985a39d8896_233x145.jpg 233w" sizes="100vw" class="posts__item-img" alt="В Бразилии запустили первый «экологически чистый» ETF на биткоин">                <a href="https://miningbitcoinguide.com/kriptovalyuty" class="posts__item-cat">Криптовалюты</a>
+        <div class="count-views count-views_abs">2934</div>
+    </div>
+    <div class="posts__item-title">
+        <a href="https://miningbitcoinguide.com/kriptovalyuty/v-brazilii-zapustili-zelenyj-etf-na-btc">В Бразилии запустили первый «экологически чистый» ETF на биткоин</a>
+    </div>
+</div><div class="posts__item posts__item_small">
+    <div class="posts__item-box">
+        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/0e/84a65a50b93500e_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/0e/84a65a50b93500e_635x395.jpg 635w, https://miningbitcoinguide.com/wp-content/cache/thumb/0e/84a65a50b93500e_420x261.jpg 420w, https://miningbitcoinguide.com/wp-content/cache/thumb/0e/84a65a50b93500e_233x145.jpg 233w" sizes="100vw" class="posts__item-img" alt="Масштабирование чтения и записи в блокчейне – решение TheGraph Protocol">                <a href="https://miningbitcoinguide.com/technology" class="posts__item-cat">Технологии</a>
+        <div class="count-views count-views_abs">3897</div>
+    </div>
+    <div class="posts__item-title">
+        <a href="https://miningbitcoinguide.com/technology/o-masshtabirovanii-zapisej-v-blockchain">Масштабирование чтения и записи в блокчейне – решение TheGraph Protocol</a>
+    </div>
+</div><div class="posts__item posts__item_small">
+    <div class="posts__item-box">
+        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/bd/1163ae4667afdbd_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/bd/1163ae4667afdbd_635x395.jpg 635w, https://miningbitcoinguide.com/wp-content/cache/thumb/bd/1163ae4667afdbd_420x261.jpg 420w, https://miningbitcoinguide.com/wp-content/cache/thumb/bd/1163ae4667afdbd_233x145.jpg 233w" sizes="100vw" class="posts__item-img" alt="Parallel Finance – финансовые сервисы нового поколения в экосистеме Polkadot">                <a href="https://miningbitcoinguide.com/kriptovalyuty" class="posts__item-cat">Криптовалюты</a>
+        <div class="count-views count-views_abs">4387</div>
+    </div>
+    <div class="posts__item-title">
+        <a href="https://miningbitcoinguide.com/kriptovalyuty/parallel-finance">Parallel Finance – финансовые сервисы нового поколения в экосистеме Polkadot</a>
+    </div>
+</div><div class="posts__item posts__item_big">
+    <div class="posts__item-box">
+        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/bf/289471cf32afcbf_491x306.jpg" width="491" height="306" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/bf/289471cf32afcbf_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/bf/289471cf32afcbf_491x306.jpg 491w" sizes="100vw" class="posts__item-img" alt="Shamining – клауд-майнинг криптовалют на алгоритме SHA256">                <a href="https://miningbitcoinguide.com/trading/market" class="posts__item-cat">Биржи</a>
+        <div class="count-views count-views_abs">4161</div>
+    </div>
+    <div class="posts__item-title">
+        <a href="https://miningbitcoinguide.com/trading/market/shamining">Shamining – клауд-майнинг криптовалют на алгоритме SHA256</a>
+    </div>
+</div><div class="posts__item posts__item_big">
+    <div class="posts__item-box">
+        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/09/18551de68fa7509_491x306.jpg" width="491" height="306" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/09/18551de68fa7509_320x199.jpg 320w, https://miningbitcoinguide.com/wp-content/cache/thumb/09/18551de68fa7509_491x306.jpg 491w" sizes="100vw" class="posts__item-img" alt="Handle.fi – создание и обмен мультивалютных стейблкоинов">                <a href="https://miningbitcoinguide.com/kriptovalyuty" class="posts__item-cat">Криптовалюты</a>
+        <div class="count-views count-views_abs">4112</div>
+    </div>
+    <div class="posts__item-title">
+        <a href="https://miningbitcoinguide.com/kriptovalyuty/handle-fi">Handle.fi – создание и обмен мультивалютных стейблкоинов</a>
+    </div>
+</div><div class="posts__item posts__item_small">
+    <div class="posts__item-box">
+        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/be/7d26d4c12b3e3be_233x145.png" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/be/7d26d4c12b3e3be_635x395.png 635w, https://miningbitcoinguide.com/wp-content/cache/thumb/be/7d26d4c12b3e3be_420x261.png 420w, https://miningbitcoinguide.com/wp-content/cache/thumb/be/7d26d4c12b3e3be_233x145.png 233w" sizes="100vw" class="posts__item-img" alt="KSM Starter – ведущая стартовая площадка от Kusama Network">                <a href="https://miningbitcoinguide.com/kriptovalyuty" class="posts__item-cat">Криптовалюты</a>
+        <div class="count-views count-views_abs">5628</div>
+    </div>
+    <div class="posts__item-title">
+        <a href="https://miningbitcoinguide.com/kriptovalyuty/ksm-starter">KSM Starter – ведущая стартовая площадка от Kusama Network</a>
+    </div>
+</div><div class="posts__item posts__item_small">
+    <div class="posts__item-box">
+        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/b7/4ab2307ade4bbb7_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/b7/4ab2307ade4bbb7_635x395.jpg 635w, https://miningbitcoinguide.com/wp-content/cache/thumb/b7/4ab2307ade4bbb7_420x261.jpg 420w, https://miningbitcoinguide.com/wp-content/cache/thumb/b7/4ab2307ade4bbb7_233x145.jpg 233w" sizes="100vw" class="posts__item-img" alt="Blocto – платформа для удобного доступа к блокчейн-приложениям">                <a href="https://miningbitcoinguide.com/kriptovalyuty" class="posts__item-cat">Криптовалюты</a>
+        <div class="count-views count-views_abs">6445</div>
+    </div>
+    <div class="posts__item-title">
+        <a href="https://miningbitcoinguide.com/kriptovalyuty/blocto">Blocto – платформа для удобного доступа к блокчейн-приложениям</a>
+    </div>
+</div><div class="posts__item posts__item_small">
+    <div class="posts__item-box">
+        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/54/0bccad213b6fb54_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/54/0bccad213b6fb54_635x395.jpg 635w, https://miningbitcoinguide.com/wp-content/cache/thumb/54/0bccad213b6fb54_420x261.jpg 420w, https://miningbitcoinguide.com/wp-content/cache/thumb/54/0bccad213b6fb54_233x145.jpg 233w" sizes="100vw" class="posts__item-img" alt="RevenueBot – сервис для автоматизированного трейдинга на криптобиржах">                <a href="https://miningbitcoinguide.com/trading/market" class="posts__item-cat">Биржи</a>
+        <div class="count-views count-views_abs">6554</div>
+    </div>
+    <div class="posts__item-title">
+        <a href="https://miningbitcoinguide.com/trading/market/revenuebot">RevenueBot – сервис для автоматизированного трейдинга на криптобиржах</a>
+    </div>
+</div><div class="posts__item posts__item_small">
+    <div class="posts__item-box">
+        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/01/1fa1f6cde9d4c01_233x145.jpg" width="233" height="145" srcset="https://miningbitcoinguide.com/wp-content/cache/thumb/01/1fa1f6cde9d4c01_635x395.jpg 635w, https://miningbitcoinguide.com/wp-content/cache/thumb/01/1fa1f6cde9d4c01_420x261.jpg 420w, https://miningbitcoinguide.com/wp-content/cache/thumb/01/1fa1f6cde9d4c01_233x145.jpg 233w" sizes="100vw" class="posts__item-img" alt="Kattana – торговый терминал с масштабируемыми графиками DEX и CEX">                <a href="https://miningbitcoinguide.com/kriptovalyuty" class="posts__item-cat">Криптовалюты</a>
+        <div class="count-views count-views_abs">4567</div>
+    </div>
+    <div class="posts__item-title">
+        <a href="https://miningbitcoinguide.com/kriptovalyuty/kattana">Kattana – торговый терминал с масштабируемыми графиками DEX и CEX</a>
+    </div>
+</div>		    </div>
+		    		        <div class="more-box">
+		            <div class="more"
+		                data-newposts="1"
+		                data-items="10"
+		                data-offset="10"
+		                data-theme="miningbitcoinguide_new"
+		                data-loading="<span>Загрузка...</span>"><span>Посмотреть еще</span>
+		            </div>
+		        </div>
+		        	</main>
+	<aside class="sidebar">
+    <div class="widget_text section section_widget widget_custom_html" id="custom_html-2"><div class="section__title">Подписаться на канал</div><div class="textwidget custom-html-widget"><a href="https://t.me/miningbitcoinguide" target="_blank" rel="noopener nofollow"><img alt="telegram miningbitcoinguide" src="https://miningbitcoinguide.com/wp-content/uploads/2018/07/telegram-miningbitcoinguide2.jpg" ></a></div></div><div class="section section_widget ai_widget ai-viewport-1 ai-viewport-2" id="ai_widget-11"><div class='code-block code-block-8' style='margin: 8px 0; clear: both;'>
+<!--noindex-->
+<a href="https://www.bestchange.ru/?p=296670" target="_blank" rel="noopener nofollow"><img alt="Banner Bestchange" src="https://miningbitcoinguide.com/wp-content/uploads/2021/03/300x250-bestchange-kupit-btc.gif" ></a>
+<!--/noindex--></div>
+</div><div class="section section_widget ai_widget ai-viewport-1 ai-viewport-2" id="ai_widget-4"><div class='code-block code-block-9' style='margin: 8px 0; clear: both;'>
+<!-- Coinzilla Banner 300x250 -->
+<script async src="https://coinzillatag.com/lib/display.js"></script>
+<div class="coinzilla" data-zone="C-395815a251c4423999"></div>
+<script>
+    window.coinzilla_display = window.coinzilla_display || [];
+    var c_display_preferences = {};
+    c_display_preferences.zone = "395815a251c4423999";
+    c_display_preferences.width = "300";
+    c_display_preferences.height = "250";
+    coinzilla_display.push(c_display_preferences);
+</script></div>
+</div><div class="section section_widget widget_democracy" id="democracy-2"><div class="section__title">Опрос</div>
+<!--democracy-->
+<style type="text/css">.democracy:after{content:'';display:table;clear:both}.democracy ul li,.democracy ul{background:none;padding:0;margin:0}.democracy ul li:before{display:none}.democracy input[type='radio'],.democracy input[type='checkbox']{margin:0;vertical-align:middle}.democracy input[type='radio']:focus,.democracy input[type='checkbox']:focus{outline:0}.democracy ul{list-style:none !important;border:0 !important}.democracy ul li{list-style:none !important}input[type="submit"].dem-button,a.dem-button,.dem-button{position:relative;display:inline-block;text-decoration:none;line-height:1;border:0;margin:0;padding:0;cursor:pointer;white-space:nowrap;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}input[type="submit"].dem-button:focus,a.dem-button:focus,.dem-button:focus{outline:0}input[type="submit"].dem-button:disabled,a.dem-button:disabled,.dem-button:disabled{opacity:.6;cursor:not-allowed}a.dem-button:hover{text-decoration:none !important}.democracy{position:relative;margin:0 auto}.democracy input[type='radio'],.democracy input[type='checkbox']{margin-right:.2em}.dem-screen{position:relative;line-height:1.3}.democracy ul.dem-vote{margin-bottom:1em}.democracy ul.dem-vote li{padding-bottom:0;margin-bottom:0}.democracy ul.dem-vote li>*{margin-bottom:.6em}.democracy ul.dem-answers li{padding-bottom:1em}.dem-answers .dem-label{margin-bottom:.2em;line-height:1.2}.dem-graph{position:relative;color:#555;color:rgba(0,0,0,.6);box-sizing:content-box;width:100%;display:table;height:1.2em;line-height:1.2em}.dem-fill{position:absolute;top:0;left:0;height:100%;background-color:#7cb4dd}.dem-voted-this .dem-fill{background-color:#ffc45a}.dem-votes-txt,.dem-percent-txt{position:relative;display:table-cell;padding-left:.3em;vertical-align:middle;font-size:90%}.dem-poll-info{padding-bottom:1em}.dem-poll-info:after{content:'';display:table;clear:both}.dem-poll-info>*{font-size:85%;display:block;float:right;clear:both;text-align:right;opacity:.7;line-height:1.3}.dem-vote label{float:none;display:block}.dem-results-link{display:inline-block;line-height:1;margin:.8em 1em}.dem-vote .dem-disabled{opacity:.5}.democracy .dem-bottom{padding-bottom:1em}.dem-bottom{text-align:center}.dem-bottom:after{content:'';display:table;clear:both}.dem-poll-title{display:block;margin-bottom:1.5em;margin-top:1.2em;font-size:120%}.dem-notice{z-index:10;position:absolute;top:0;border-radius:2px;width:100%;padding:1.5em 2em;text-align:center;background:rgba(247,241,212,.8);color:#6d6214}.dem-notice-close{position:absolute;top:0;right:0;padding:5px;cursor:pointer;line-height:.6;font-size:150%}.dem-notice-close:hover{color:#d26616}.dem-star{font-size:90%;vertical-align:baseline;padding-left:.3em;color:#ff4e00}.dem-poll-note{font-size:90%;padding:.5em;opacity:.8;line-height:1.3}.democracy .dem-copyright{position:absolute;bottom:-1em;right:0;text-decoration:none;border-bottom:0;color:#b2b2b2;opacity:.5;line-height:1}.democracy .dem-copyright:hover{opacity:1}.dem-add-answer{position:relative}.dem-add-answer>*{display:block}.dem-add-answer a{display:inline-block}input.dem-add-answer-txt{width:100%;box-sizing:border-box}.dem-add-answer-close{position:absolute;right:0;padding:0 .7em;cursor:pointer;color:#333}.dem-add-answer-close:hover{color:#ff2700}.dem-edit-link{display:block;position:absolute;top:0;right:0;line-height:1;text-decoration:none !important;border:0 !important}.dem-edit-link svg{width:1.2em !important;fill:#5a5a5a;fill:rgba(0,0,0,.6)}.dem-edit-link:hover svg{fill:#35a91d}.dem-loader{display:none;position:absolute;top:0;left:0;width:100%;height:100%}.dem-loader>*{display:table-cell;vertical-align:middle;text-align:center}.dem-loader svg{width:20%;max-width:100px;min-width:80px;margin-bottom:15%}.dem-loader [class^="dem-"]{margin-bottom:15% !important}.dem__collapser{display:block;cursor:pointer;text-align:center;font-size:150%;line-height:1}.dem__collapser:hover{color:#f31;background:rgba(255,255,255,.3)}.dem__collapser.expanded{position:relative;height:1em}.dem__collapser.collapsed{position:absolute;top:0;bottom:0;right:0;left:0}.dem__collapser .arr{display:block;position:absolute;bottom:0;width:100%}.dem__collapser.collapsed .arr:before{content:"▾"}.dem__collapser.expanded .arr:before{content:"▴"}.dem-poll-shortcode{margin-bottom:1.5em}.dem-archives .dem-elem-wrap{margin-bottom:2em;padding-bottom:20px;border-bottom:1px dashed #ccc}.dem-archives .dem-archive-link{display:none}.dem-link{font-style:italic;font-size:90%}.dem-vote-link:before{content:'◂ '}.dem-vote label:hover{opacity:.8}.dem-vote-button{float:left}.dem-results-link{float:right}.dem-graph{font-family:Arial,sans-serif;background:#f7f7f7;background:linear-gradient(to bottom,rgba(0,0,0,.05) 50%,rgba(0,0,0,.1) 50%);background:-webkit-linear-gradient(top,rgba(0,0,0,.05) 50%,rgba(0,0,0,.1) 50%)}.dem-fill{background-image:linear-gradient(to right,rgba(255,255,255,.3),transparent);background-image:-webkit-linear-gradient(left,rgba(255,255,255,.3),transparent)}.dem-answers .dem-label{margin-bottom:.1em}.dem-votes-txt,.dem-percent-txt{font-size:80%}.dem-percent-txt{display:none}.dem-answers li:hover .dem-votes-txt{display:none}.dem-answers li:hover .dem-percent-txt{display:table-cell}.dem-voted-this .dem-label:before{content:'✓';display:inline-block;margin-right:.2em}.dem-voted-this .dem-graph{border-color:#969696}.dem-label-percent-txt,.dem-votes-txt-percent,.dem-novoted .dem-votes-txt{display:none}.dem-poll-info{font-style:italic}.dem-archive-link{text-align:right}.dem-bottom{text-align:left}input[type="submit"].dem-button,a.dem-button,.dem-button{font-family:arial,sans-serif;font-size:90%;font-weight:bold;color:#444;padding:.5em 1.2em;border:1px solid rgba(0,0,0,.1) !important;border-radius:2px;background:#f5f5f5 linear-gradient(#f4f4f4,#f1f1f1);transition:color border background box-shadow .218s ease 0s}input[type="submit"].dem-button:active,a.dem-button:active,.dem-button:hover{color:#444;border:1px solid #c6c6c6 !important;background:#f7f7f7 linear-gradient(#f7f7f7,#f1f1f1);box-shadow:0 1px 2px rgba(0,0,0,.1)}input[type="submit"].dem-button:active,a.dem-button:active,.dem-button:active{color:#333;border:1px solid #ccc !important;background:#eee linear-gradient(#eee,#e0e0e0);box-shadow:0 1px 2px rgba(0,0,0,.1) inset}a.dem-button:visited{color:#444}</style>
+<div id="democracy-10" class="democracy" data-opts='{"ajax_url":"https:\/\/miningbitcoinguide.com\/wp-admin\/admin-ajax.php","pid":10,"max_answs":"10","answs_max_height":"500","anim_speed":"400","line_anim_speed":1500}' ><strong class="dem-poll-title">Какими биржами вы пользуетесь?</strong><div class="dem-screen vote"><form method="POST" action="#democracy-10"><ul class="dem-vote">
+					<li data-aid="62">
+						<label class="dem__checkbox_label">
+							<input class="dem__checkbox"  type="checkbox" value="62" name="answer_ids[]"><span class="dem__spot"></span> BitMEX - <a href="https://goo.gl/yrCwGC" target="_blank" rel="noopener nofollow" style="color: #0000FF">bitmex.com</a>
+						</label>
+					</li>
+					<li data-aid="63">
+						<label class="dem__checkbox_label">
+							<input class="dem__checkbox"  type="checkbox" value="63" name="answer_ids[]"><span class="dem__spot"></span> Binance - <a href="https://goo.gl/wkTDKv" target="_blank" rel="noopener nofollow" style="color: #0000FF">binance.com</a>
+						</label>
+					</li>
+					<li data-aid="65">
+						<label class="dem__checkbox_label">
+							<input class="dem__checkbox"  type="checkbox" value="65" name="answer_ids[]"><span class="dem__spot"></span> Huobi - <a href="https://goo.gl/5eEsa7" target="_blank" rel="noopener nofollow" style="color: #0000FF">huobi.com</a>
+						</label>
+					</li>
+					<li data-aid="67">
+						<label class="dem__checkbox_label">
+							<input class="dem__checkbox"  type="checkbox" value="67" name="answer_ids[]"><span class="dem__spot"></span> Bibox - <a href="https://goo.gl/fycLdd" target="_blank" rel="noopener nofollow" style="color: #0000FF">bibox.com</a>
+						</label>
+					</li>
+					<li data-aid="68">
+						<label class="dem__checkbox_label">
+							<input class="dem__checkbox"  type="checkbox" value="68" name="answer_ids[]"><span class="dem__spot"></span> BitMax - <a href="https://goo.gl/uhBQqa" target="_blank" rel="noopener nofollow" style="color: #0000FF">bitmax.io</a>
+						</label>
+					</li>
+					<li data-aid="73">
+						<label class="dem__checkbox_label">
+							<input class="dem__checkbox"  type="checkbox" value="73" name="answer_ids[]"><span class="dem__spot"></span> Kucoin - <a href="https://goo.gl/XssJjw" target="_blank" rel="noopener nofollow" style="color: #0000FF">kucoin.com</a>
+						</label>
+					</li>
+					<li data-aid="64">
+						<label class="dem__checkbox_label">
+							<input class="dem__checkbox"  type="checkbox" value="64" name="answer_ids[]"><span class="dem__spot"></span> OKEx - <a href="https://www.okex.com" target="_blank" rel="noopener nofollow" style="color: #0000FF">okex.com</a>
+						</label>
+					</li>
+					<li data-aid="71">
+						<label class="dem__checkbox_label">
+							<input class="dem__checkbox"  type="checkbox" value="71" name="answer_ids[]"><span class="dem__spot"></span> EXMO - <a href="https://goo.gl/S2PMeK" target="_blank" rel="noopener nofollow" style="color: #0000FF">exmo.me</a>
+						</label>
+					</li>
+					<li data-aid="74">
+						<label class="dem__checkbox_label">
+							<input class="dem__checkbox"  type="checkbox" value="74" name="answer_ids[]"><span class="dem__spot"></span> Yobit - <a href="https://goo.gl/Gn88kn" target="_blank" rel="noopener nofollow" style="color: #0000FF">yobit.io</a>
+						</label>
+					</li>
+					<li data-aid="75">
+						<label class="dem__checkbox_label">
+							<input class="dem__checkbox"  type="checkbox" value="75" name="answer_ids[]"><span class="dem__spot"></span> HitBTC - <a href="https://goo.gl/T9oYAo" target="_blank" rel="noopener nofollow" style="color: #0000FF">hitbtc.com</a>
+						</label>
+					</li>
+					<li data-aid="72">
+						<label class="dem__checkbox_label">
+							<input class="dem__checkbox"  type="checkbox" value="72" name="answer_ids[]"><span class="dem__spot"></span> Другие
+						</label>
+					</li></ul><div class="dem-bottom"><input type="hidden" name="dem_act" value="vote"><input type="hidden" name="dem_pid" value="10"><div class="dem-vote-button"><input class="dem-button " type="submit" value="Голосовать" data-dem-act="vote"></div><a href="javascript:void(0);" class="dem-link dem-results-link" data-dem-act="view" rel="nofollow">Результаты</a></div></form></div><noscript>Poll Options are limited because JavaScript is disabled in your browser.</noscript><div class="dem-loader"><div><style type="text/css">
+.dem-fadein {
+  width:100%;
+  height:100%;
+  min-width:40px;
+  min-height:40px;
+  max-width:70px;
+  max-height:70px;
+    
+  margin: 0 auto;
+  background-color: #333;
+
+  border-radius: 100%;  
+  -webkit-animation: scaleout 1.0s infinite ease-in-out;
+  animation: scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes scaleout {
+  0% { -webkit-transform: scale(0.0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleout {
+  0% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 100% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+</style>
+
+<div class="dem-fadein css-fill"></div>
+
+
+</div></div></div><!--democracy-->
+			<!--noindex-->
+			<div class="dem-cache-screens" style="display:none;" data-opt_logs="1"><div class="dem-screen-cache voted"><ul class="dem-answers" data-voted-class="dem-voted-this" data-voted-txt="Это Ваш голос. "><li class="dem-winner" title=' 1059 голосов - 37% из всех голосов' data-aid="63"><div class="dem-label">Binance - <a href="https://goo.gl/wkTDKv" target="_blank" rel="noopener nofollow" style="color: #0000FF">binance.com</a> <span class="dem-label-percent-txt">37%, 1059 <span class="votxt">голосов</span></span></div><div class="dem-graph"><div class="dem-fill" data-width="37%"></div><div class="dem-votes-txt"> <span class="dem-votes-txt-votes">1059 <span class="votxt">голосов</span></span> <span class="dem-votes-txt-percent">37%</span> </div><div class="dem-percent-txt">1059 голосов - 37% из всех голосов</div></div></li><li class="" title=' 461 голос - 16% из всех голосов' data-aid="72"><div class="dem-label">Другие <span class="dem-label-percent-txt">16%, 461 <span class="votxt">голос</span></span></div><div class="dem-graph"><div class="dem-fill" data-width="16%"></div><div class="dem-votes-txt"> <span class="dem-votes-txt-votes">461 <span class="votxt">голос</span></span> <span class="dem-votes-txt-percent">16%</span> </div><div class="dem-percent-txt">461 голос - 16% из всех голосов</div></div></li><li class="" title=' 443 голоса - 16% из всех голосов' data-aid="71"><div class="dem-label">EXMO - <a href="https://goo.gl/S2PMeK" target="_blank" rel="noopener nofollow" style="color: #0000FF">exmo.me</a> <span class="dem-label-percent-txt">16%, 443 <span class="votxt">голоса</span></span></div><div class="dem-graph"><div class="dem-fill" data-width="16%"></div><div class="dem-votes-txt"> <span class="dem-votes-txt-votes">443 <span class="votxt">голоса</span></span> <span class="dem-votes-txt-percent">16%</span> </div><div class="dem-percent-txt">443 голоса - 16% из всех голосов</div></div></li><li class="" title=' 198 голосов - 7% из всех голосов' data-aid="74"><div class="dem-label">Yobit - <a href="https://goo.gl/Gn88kn" target="_blank" rel="noopener nofollow" style="color: #0000FF">yobit.io</a> <span class="dem-label-percent-txt">7%, 198 <span class="votxt">голосов</span></span></div><div class="dem-graph"><div class="dem-fill" data-width="7%"></div><div class="dem-votes-txt"> <span class="dem-votes-txt-votes">198 <span class="votxt">голосов</span></span> <span class="dem-votes-txt-percent">7%</span> </div><div class="dem-percent-txt">198 голосов - 7% из всех голосов</div></div></li><li class="" title=' 198 голосов - 7% из всех голосов' data-aid="62"><div class="dem-label">BitMEX - <a href="https://goo.gl/yrCwGC" target="_blank" rel="noopener nofollow" style="color: #0000FF">bitmex.com</a> <span class="dem-label-percent-txt">7%, 198 <span class="votxt">голосов</span></span></div><div class="dem-graph"><div class="dem-fill" data-width="7%"></div><div class="dem-votes-txt"> <span class="dem-votes-txt-votes">198 <span class="votxt">голосов</span></span> <span class="dem-votes-txt-percent">7%</span> </div><div class="dem-percent-txt">198 голосов - 7% из всех голосов</div></div></li><li class="" title=' 117 голосов - 4% из всех голосов' data-aid="73"><div class="dem-label">Kucoin - <a href="https://goo.gl/XssJjw" target="_blank" rel="noopener nofollow" style="color: #0000FF">kucoin.com</a> <span class="dem-label-percent-txt">4%, 117 <span class="votxt">голосов</span></span></div><div class="dem-graph"><div class="dem-fill" data-width="4%"></div><div class="dem-votes-txt"> <span class="dem-votes-txt-votes">117 <span class="votxt">голосов</span></span> <span class="dem-votes-txt-percent">4%</span> </div><div class="dem-percent-txt">117 голосов - 4% из всех голосов</div></div></li><li class="" title=' 113 голосов - 4% из всех голосов' data-aid="65"><div class="dem-label">Huobi - <a href="https://goo.gl/5eEsa7" target="_blank" rel="noopener nofollow" style="color: #0000FF">huobi.com</a> <span class="dem-label-percent-txt">4%, 113 <span class="votxt">голосов</span></span></div><div class="dem-graph"><div class="dem-fill" data-width="4%"></div><div class="dem-votes-txt"> <span class="dem-votes-txt-votes">113 <span class="votxt">голосов</span></span> <span class="dem-votes-txt-percent">4%</span> </div><div class="dem-percent-txt">113 голосов - 4% из всех голосов</div></div></li><li class="" title=' 90 голосов - 3% из всех голосов' data-aid="75"><div class="dem-label">HitBTC - <a href="https://goo.gl/T9oYAo" target="_blank" rel="noopener nofollow" style="color: #0000FF">hitbtc.com</a> <span class="dem-label-percent-txt">3%, 90 <span class="votxt">голосов</span></span></div><div class="dem-graph"><div class="dem-fill" data-width="3%"></div><div class="dem-votes-txt"> <span class="dem-votes-txt-votes">90 <span class="votxt">голосов</span></span> <span class="dem-votes-txt-percent">3%</span> </div><div class="dem-percent-txt">90 голосов - 3% из всех голосов</div></div></li><li class="" title=' 74 голоса - 3% из всех голосов' data-aid="64"><div class="dem-label">OKEx - <a href="https://www.okex.com" target="_blank" rel="noopener nofollow" style="color: #0000FF">okex.com</a> <span class="dem-label-percent-txt">3%, 74 <span class="votxt">голоса</span></span></div><div class="dem-graph"><div class="dem-fill" data-width="3%"></div><div class="dem-votes-txt"> <span class="dem-votes-txt-votes">74 <span class="votxt">голоса</span></span> <span class="dem-votes-txt-percent">3%</span> </div><div class="dem-percent-txt">74 голоса - 3% из всех голосов</div></div></li><li class="" title=' 40 голосов - 1% из всех голосов' data-aid="68"><div class="dem-label">BitMax - <a href="https://goo.gl/uhBQqa" target="_blank" rel="noopener nofollow" style="color: #0000FF">bitmax.io</a> <span class="dem-label-percent-txt">1%, 40 <span class="votxt">голосов</span></span></div><div class="dem-graph"><div class="dem-fill" data-width="1%"></div><div class="dem-votes-txt"> <span class="dem-votes-txt-votes">40 <span class="votxt">голосов</span></span> <span class="dem-votes-txt-percent">1%</span> </div><div class="dem-percent-txt">40 голосов - 1% из всех голосов</div></div></li><li class="" title=' 37 голосов - 1% из всех голосов' data-aid="67"><div class="dem-label">Bibox - <a href="https://goo.gl/fycLdd" target="_blank" rel="noopener nofollow" style="color: #0000FF">bibox.com</a> <span class="dem-label-percent-txt">1%, 37 <span class="votxt">голосов</span></span></div><div class="dem-graph"><div class="dem-fill" data-width="1%"></div><div class="dem-votes-txt"> <span class="dem-votes-txt-votes">37 <span class="votxt">голосов</span></span> <span class="dem-votes-txt-percent">1%</span> </div><div class="dem-percent-txt">37 голосов - 1% из всех голосов</div></div></li></ul><div class="dem-bottom"><div class="dem-poll-info"><div class="dem-total-votes">Всего голосов: 2830</div><div class="dem-users-voted">Голосовало: 2049</div> <div class="dem-date" title="Начало"> <span class="dem-begin-date">15.01.2019</span> </div></div> <div class="dem-notice dem-youarevote" style="display:none;"> <div class="dem-notice-close" onclick="jQuery(this).parent().fadeOut();">&times;</div> Вы или с вашего IP уже голосовали. </div><button type="button" class="dem-button dem-vote-link " data-dem-act="vote_screen">Голосовать</button></div></div><div class="dem-screen-cache vote"><form method="POST" action="#democracy-10"><ul class="dem-vote"> <li data-aid="62"> <label class="dem__checkbox_label"> <input class="dem__checkbox" type="checkbox" value="62" name="answer_ids[]"><span class="dem__spot"></span> BitMEX - <a href="https://goo.gl/yrCwGC" target="_blank" rel="noopener nofollow" style="color: #0000FF">bitmex.com</a> </label> </li> <li data-aid="63"> <label class="dem__checkbox_label"> <input class="dem__checkbox" type="checkbox" value="63" name="answer_ids[]"><span class="dem__spot"></span> Binance - <a href="https://goo.gl/wkTDKv" target="_blank" rel="noopener nofollow" style="color: #0000FF">binance.com</a> </label> </li> <li data-aid="65"> <label class="dem__checkbox_label"> <input class="dem__checkbox" type="checkbox" value="65" name="answer_ids[]"><span class="dem__spot"></span> Huobi - <a href="https://goo.gl/5eEsa7" target="_blank" rel="noopener nofollow" style="color: #0000FF">huobi.com</a> </label> </li> <li data-aid="67"> <label class="dem__checkbox_label"> <input class="dem__checkbox" type="checkbox" value="67" name="answer_ids[]"><span class="dem__spot"></span> Bibox - <a href="https://goo.gl/fycLdd" target="_blank" rel="noopener nofollow" style="color: #0000FF">bibox.com</a> </label> </li> <li data-aid="68"> <label class="dem__checkbox_label"> <input class="dem__checkbox" type="checkbox" value="68" name="answer_ids[]"><span class="dem__spot"></span> BitMax - <a href="https://goo.gl/uhBQqa" target="_blank" rel="noopener nofollow" style="color: #0000FF">bitmax.io</a> </label> </li> <li data-aid="73"> <label class="dem__checkbox_label"> <input class="dem__checkbox" type="checkbox" value="73" name="answer_ids[]"><span class="dem__spot"></span> Kucoin - <a href="https://goo.gl/XssJjw" target="_blank" rel="noopener nofollow" style="color: #0000FF">kucoin.com</a> </label> </li> <li data-aid="64"> <label class="dem__checkbox_label"> <input class="dem__checkbox" type="checkbox" value="64" name="answer_ids[]"><span class="dem__spot"></span> OKEx - <a href="https://www.okex.com" target="_blank" rel="noopener nofollow" style="color: #0000FF">okex.com</a> </label> </li> <li data-aid="71"> <label class="dem__checkbox_label"> <input class="dem__checkbox" type="checkbox" value="71" name="answer_ids[]"><span class="dem__spot"></span> EXMO - <a href="https://goo.gl/S2PMeK" target="_blank" rel="noopener nofollow" style="color: #0000FF">exmo.me</a> </label> </li> <li data-aid="74"> <label class="dem__checkbox_label"> <input class="dem__checkbox" type="checkbox" value="74" name="answer_ids[]"><span class="dem__spot"></span> Yobit - <a href="https://goo.gl/Gn88kn" target="_blank" rel="noopener nofollow" style="color: #0000FF">yobit.io</a> </label> </li> <li data-aid="75"> <label class="dem__checkbox_label"> <input class="dem__checkbox" type="checkbox" value="75" name="answer_ids[]"><span class="dem__spot"></span> HitBTC - <a href="https://goo.gl/T9oYAo" target="_blank" rel="noopener nofollow" style="color: #0000FF">hitbtc.com</a> </label> </li> <li data-aid="72"> <label class="dem__checkbox_label"> <input class="dem__checkbox" type="checkbox" value="72" name="answer_ids[]"><span class="dem__spot"></span> Другие </label> </li></ul><div class="dem-bottom"><input type="hidden" name="dem_act" value="vote"><input type="hidden" name="dem_pid" value="10"> <div class="dem-notice dem-youarevote" style="display:none;"> <div class="dem-notice-close" onclick="jQuery(this).parent().fadeOut();">&times;</div> Вы или с вашего IP уже голосовали. </div><div style="display:none;" class="dem-voted-button"><input class="dem-button " type="submit" value="Уже голосовали..." disabled="disabled"></div><div class="dem-vote-button"><input class="dem-button " type="submit" value="Голосовать" data-dem-act="vote"></div><a href="javascript:void(0);" class="dem-link dem-results-link" data-dem-act="view" rel="nofollow">Результаты</a></div></form></div>
+			</div>
+			<!--/noindex--></div><div class="widget_text section section_widget widget_custom_html" id="custom_html-3"><div class="textwidget custom-html-widget"><a href="https://miningbitcoinguide.com/trading/market/kriptovalyutnye-birzhi"><img alt="Баннер Криптовалютные биржи" src="https://miningbitcoinguide.com/wp-content/uploads/2019/06/bnr3.png" ></a></div></div>    <div class="section-posts-box section">
+    	<div class="section__title">Популярные статьи</div>
+	    <div class="section-posts">
+	        	        	<div class="section-posts__item">
+	        	    <div class="section-posts__item-box">
+	        	        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/67/80d13fddc2aff67_300x187.jpg" width="300" height="187" class="section-posts__item-img" alt="Выбираем удобный способ пополнения кошелька Bitcoin">	        	        <div class="count-views count-views_abs">108360</div>
+	        	    </div>
+	        	    <div class="section-posts__item-text">
+	        	        <div class="section-posts__item-title">
+	        	            <a href="https://miningbitcoinguide.com/kriptovalyuty/bitcoin/kak-popolnit-btc-koshelek">Выбираем удобный способ пополнения кошелька Bitcoin</a>
+	        	        </div>
+	        	    </div>
+	        	</div>
+	        		        	<div class="section-posts__item">
+	        	    <div class="section-posts__item-box">
+	        	        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/c2/0697dd516abe3c2_300x187.jpg" width="300" height="187" class="section-posts__item-img" alt="Как можно купить биткоины за рубли с минимальной комиссией">	        	        <div class="count-views count-views_abs">105124</div>
+	        	    </div>
+	        	    <div class="section-posts__item-text">
+	        	        <div class="section-posts__item-title">
+	        	            <a href="https://miningbitcoinguide.com/kriptovalyuty/bitcoin/kupit-bitkoiny-deshevo">Как можно купить биткоины за рубли с минимальной комиссией</a>
+	        	        </div>
+	        	    </div>
+	        	</div>
+	        		        	<div class="section-posts__item">
+	        	    <div class="section-posts__item-box">
+	        	        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/da/3a9e96ad86c46da_300x187.jpg" width="300" height="187" class="section-posts__item-img" alt="Таблица хешрейта для видеокарт, процессоров и ASIC">	        	        <div class="count-views count-views_abs">99124</div>
+	        	    </div>
+	        	    <div class="section-posts__item-text">
+	        	        <div class="section-posts__item-title">
+	        	            <a href="https://miningbitcoinguide.com/mining/zhelezo/hashrate-gpu-cpu-asic">Таблица хешрейта для видеокарт, процессоров и ASIC</a>
+	        	        </div>
+	        	    </div>
+	        	</div>
+	        		        	<div class="section-posts__item">
+	        	    <div class="section-posts__item-box">
+	        	        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/aa/99008985eb7a2aa_300x187.jpg" width="300" height="187" class="section-posts__item-img" alt="В чем заключается суть майнинга. Простыми словами о сложном">	        	        <div class="count-views count-views_abs">65948</div>
+	        	    </div>
+	        	    <div class="section-posts__item-text">
+	        	        <div class="section-posts__item-title">
+	        	            <a href="https://miningbitcoinguide.com/mining/sposoby/chto-takoe-sut-vidy">В чем заключается суть майнинга. Простыми словами о сложном</a>
+	        	        </div>
+	        	    </div>
+	        	</div>
+	        		        	<div class="section-posts__item">
+	        	    <div class="section-posts__item-box">
+	        	        <img src="https://miningbitcoinguide.com/wp-content/cache/thumb/02/44b779b2340d702_300x187.jpg" width="300" height="187" class="section-posts__item-img" alt="Популярные боты для торговли на бирже криптовалют">	        	        <div class="count-views count-views_abs">65537</div>
+	        	    </div>
+	        	    <div class="section-posts__item-text">
+	        	        <div class="section-posts__item-title">
+	        	            <a href="https://miningbitcoinguide.com/trading/market/torgovye-boty-dlya-kriptovalyutnyh-birzh">Популярные боты для торговли на бирже криптовалют</a>
+	        	        </div>
+	        	    </div>
+	        	</div>
+	        		    </div>
+    </div>
+	</aside></div>
+</div><!-- /.wraper -->
+<footer class="footer">
+	<div class="wrap">
+		<div class="footer__item footer__item_1">
+			<div class="logo logo_footer"><span class="logo__orange">miningbitcoinguide</span>.com</div>
+			<div class="copy">
+				<br>
+				<br>
+				<br>
+				<div>© 2023 miningbitcoinguide.com </div> 
+				<div>Все права защищены.</div>
+				<div>Перед использованием материалов сайта ознакомьтесь:</div>
+				<div><a href="https://miningbitcoinguide.com/user-agreement" style="color: #FFA500" >Пользовательское соглашение</a> и <a href="https://miningbitcoinguide.com/privacy-policy" style="color: #FFA500" >Политика конфиденциальности</a></div>
+				<div>Копирование любых материалов сайта только с письменного разрешения</div>
+				<div>администрации, при этом активная ссылка на источник обязательна.</div>
+			</div>
+		</div>
+		<div class="footer__item footer__item_2">
+			<nav class="footer-menu-box"><ul class="footer-menu"><li id="menu-item-3191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3191"><a href="https://miningbitcoinguide.com/podderzhat-proekt">Поддержать проект</a></li>
+<li id="menu-item-504" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-504"><a href="https://miningbitcoinguide.com/about">О проекте</a></li>
+<li id="menu-item-1560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1560"><a href="https://miningbitcoinguide.com/kontakty">Контакты</a></li>
+<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="https://miningbitcoinguide.com/sitemap">Карта сайта</a></li>
+</ul></nav>		</div>
+	</div>
+</footer>
+</div><!-- /.main -->
+
+<!--democracy-->
+<script >function dem_ready(e){"use strict";var t,n=".democracy",i=e(n),o=".dem-screen",a=".dem-add-answer-txt",s=e(".dem-loader").first(),d={};i.length&&(d.opts=i.first().data("opts"),d.ajaxurl=d.opts.ajax_url,d.answMaxHeight=d.opts.answs_max_height,d.speed=parseInt(d.opts.anim_speed),d.lineAnimSpeed=parseInt(d.opts.line_anim_speed),setTimeout(function(){var t=i.find(o).filter(":visible"),n=function(){t.each(function(){d.setHeight(e(this),1)})};t.demInitActions(1),e(window).on("resize.demsetheight",n),e(window).load(n),d.maxAnswLimit();var a=e(".dem-cache-screens");a.length>0&&a.demCacheInit()},10),e.fn.demInitActions=function(t){return this.each(function(){var n=e(this),i="data-dem-act";n.find("["+i+"]").each(function(){e(this).attr("href",""),e(this).click(function(t){t.preventDefault(),e(this).blur().demDoAction(e(this).attr(i))})});var o=!!n.find("input[type=radio][data-dem-act=vote]").first().length;o&&n.find(".dem-vote-button").hide(),d.setAnswsMaxHeight(n),d.lineAnimSpeed&&n.find(".dem-fill").each(function(){var t=e(this);setTimeout(function(){t.animate({width:t.data("width")},d.lineAnimSpeed)},d.speed,"linear")}),d.setHeight(n,t),n.find("form").submit(function(t){t.preventDefault();var n=e(this).find('input[name="dem_act"]').val();n&&e(this).demDoAction(e(this).find('input[name="dem_act"]').val())})})},e.fn.demSetLoader=function(){var e=this;return s.length?e.closest(o).append(s.clone().css("display","table")):t=setTimeout(function(){d.demLoadingDots(e)},50),this},e.fn.demUnsetLoader=function(){return s.length?this.closest(o).find(".dem-loader").remove():clearTimeout(t),this},e.fn.demAddAnswer=function(){var t=this.first(),n=t.closest(o),i=n.find("[type=checkbox]").length>0,s=e('<input type="text" class="'+a.replace(/\./,"")+'" value="">');if(n.find(".dem-vote-button").show(),n.find("[type=radio]").each(function(){e(this).click(function(){t.fadeIn(300),e(a).remove()}),"radio"==e(this)[0].type&&(this.checked=!1)}),t.hide().parent("li").append(s),s.hide().fadeIn(300).focus(),i){var d=n.find(a);e('<span class="dem-add-answer-close">×</span>').insertBefore(d).css("line-height",d.outerHeight()+"px").click(function(){var t=e(this).parent("li");t.find("input").remove(),t.find("a").fadeIn(300),e(this).remove()})}return!1},e.fn.demCollectAnsw=function(){var t=this.closest("form"),n=t.find("[type=checkbox],[type=radio],[type=text]"),i=t.find(a).val(),o=[],s=n.filter("[type=checkbox]:checked");if(s.length>0)s.each(function(){o.push(e(this).val())});else{var d=n.filter("[type=radio]:checked");d.length&&o.push(d.val())}return i&&o.push(i),o=o.join("~"),o?o:""},e.fn.demDoAction=function(t){var i=this.first(),a=i.closest(n),s={dem_pid:a.data("opts").pid,dem_act:t,action:"dem_ajax"};return"undefined"==typeof s.dem_pid?(console.log("Poll id is not defined!"),!1):"vote"!=t||(s.answer_ids=i.demCollectAnsw(),s.answer_ids)?"delVoted"!=t||confirm(i.data("confirm-text"))?"newAnswer"==t?(i.demAddAnswer(),!1):(i.demSetLoader(),e.post(d.ajaxurl,s,function(e){i.demUnsetLoader(),i.closest(o).html(e).demInitActions()}),!1):!1:(d.demShake(i),!1)},e.fn.demCacheShowNotice=function(e){var t=this.first(),n=t.find(".dem-youarevote").first();return"blockForVisitor"==e&&(t.find(".dem-revote-button").remove(),n=t.find(".dem-only-users").first()),t.prepend(n.show()),setTimeout(function(){n.slideUp("slow")},1e4),this},d.cacheSetAnswrs=function(t,n){var i=n.split(/,/);if(t.hasClass("voted")){var o=t.find(".dem-answers"),a=o.data("voted-class"),s=o.data("voted-txt");e.each(i,function(n,i){t.find('[data-aid="'+i+'"]').addClass(a).attr("title",function(){return s+e(this).attr("title")})}),t.find(".dem-vote-link").remove()}else{var d=t.find("[data-aid]"),r=t.find(".dem-voted-button");e.each(i,function(e,t){d.filter('[data-aid="'+t+'"]').find("input").prop("checked","checked")}),d.find("input").prop("disabled","disabled"),t.find(".dem-vote-button").remove(),r.length?r.show():(t.find('input[value="vote"]').remove(),t.find(".dem-revote-button-wrap").show())}},e.fn.demCacheInit=function(){return this.each(function(){var t=e(this),i=t.prev(n);if(i.length||(i=t.closest(n)),!i.length)return void console.log("Main dem div not found");var a=i.find(o).first(),s=i.data("opts").pid,r=Cookies.get("demPoll_"+s),c="notVote"==r?!0:!1,f=!("undefined"==typeof r||c),l=t.find(o+"-cache.vote").html(),h=t.find(o+"-cache.voted").html();if(l){var u=f&&h;if(a.html((u?h:l)+"<!--cache-->").removeClass("vote voted").addClass(u?"voted":"vote"),f&&d.cacheSetAnswrs(a,r),a.demInitActions(1),!c&&!f&&1==t.data("opt_logs")){var m,p=function(){clearTimeout(m)},v=function(){m=setTimeout(function(){if(!i.hasClass("checkAnswDone")){i.addClass("checkAnswDone");var t=i.find(".dem-link").first();t.demSetLoader(),e.post(d.ajaxurl,{dem_pid:i.data("opts").pid,dem_act:"getVotedIds",action:"dem_ajax"},function(e){t.demUnsetLoader(),e&&(a.html(h),d.cacheSetAnswrs(a,e),a.demInitActions(),a.demCacheShowNotice(e))})}},700)};i.hover(v,p),i.click(v)}}})},d.detectRealHeight=function(e){var t=e.clone().css({height:"auto"}).insertBefore(e),n="border-box"==t.css("box-sizing")?parseInt(t.css("height")):t.height();return t.remove(),n},d.setHeight=function(t,n){var i=d.detectRealHeight(t);n?t.css({height:i}):t.css({opacity:0}).animate({height:i},d.speed,function(){e(this).animate({opacity:1},1.5*d.speed)})},d.setAnswsMaxHeight=function(t){if("-1"!==d.answMaxHeight&&"0"!==d.answMaxHeight&&d.answMaxHeight){var n=t.find(".dem-vote, .dem-answers").first(),i=parseInt(d.answMaxHeight);n.css({"max-height":"none","overflow-y":"visible"});var o="border-box"==n.css("box-sizing")?parseInt(n.css("height")):n.height(),a=o-i;if(a>100){n.css("position","relative");var s,r=e('<span class="dem__collapser"><span class="arr"></span></span>').appendTo(n),c=function(){r.addClass("expanded").removeClass("collapsed")},f=function(){r.addClass("collapsed").removeClass("expanded")};t.data("expanded")?c():(f(),n.height(i).css("overflow-y","hidden")),r.hover(function(){t.data("expanded")||(s=setTimeout(function(){r.trigger("click")},1e3))},function(){clearTimeout(s)}),r.click(function(){if(clearTimeout(s),t.data("expanded"))f(),t.data("expanded",!1),t.height("auto"),n.stop().css("overflow-y","hidden").animate({height:i},d.speed,function(){d.setHeight(t,!0)});else{c();var e=d.detectRealHeight(n);e+=7,t.data("expanded",!0),t.height("auto"),n.stop().animate({height:e},d.speed,function(){d.setHeight(t,!0),n.css("overflow-y","visible")})}})}}},d.maxAnswLimit=function(){i.on("change","[type=checkbox]",function(){var t=e(this).closest(n).data("opts").max_answs,i=e(this).closest(o).find("[type=checkbox]"),a=i.filter(":checked").length;a>=t?i.filter(":not(:checked)").each(function(){e(this).prop("disabled","disabled").closest("li").addClass("dem-disabled")}):i.each(function(){e(this).removeProp("disabled").closest("li").removeClass("dem-disabled")})})},d.demShake=function(e){var t=e.css("position");for(t&&"static"!==t||e.css("position","relative"),t=1;2>=t;t++)e.animate({left:-10},50).animate({left:10},100).animate({left:0},50)},d.demLoadingDots=function(e){var n=e,i=n.is("input"),o=i?n.val():n.html();"..."===o.substring(o.length-3)?i?n[0].value=o.substring(0,o.length-3):n[0].innerHTML=o.substring(0,o.length-3):i?n[0].value+=".":n[0].innerHTML+=".",t=setTimeout(function(){d.demLoadingDots(n)},200)})}!function(e){if("function"==typeof define&&define.amd)define(e);else if("object"==typeof exports)module.exports=e();else{var t=window.Cookies,n=window.Cookies=e();n.noConflict=function(){return window.Cookies=t,n}}}(function(){function e(){for(var e=0,t={};e<arguments.length;e++){var n=arguments[e];for(var i in n)t[i]=n[i]}return t}function t(n){function i(t,o,a){var s;if("undefined"!=typeof document){if(arguments.length>1){if(a=e({path:"/"},i.defaults,a),"number"==typeof a.expires){var d=new Date;d.setMilliseconds(d.getMilliseconds()+864e5*a.expires),a.expires=d}try{s=JSON.stringify(o),/^[\{\[]/.test(s)&&(o=s)}catch(r){}return o=n.write?n.write(o,t):encodeURIComponent(String(o)).replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g,decodeURIComponent),t=encodeURIComponent(String(t)),t=t.replace(/%(23|24|26|2B|5E|60|7C)/g,decodeURIComponent),t=t.replace(/[\(\)]/g,escape),document.cookie=[t,"=",o,a.expires&&"; expires="+a.expires.toUTCString(),a.path&&"; path="+a.path,a.domain&&"; domain="+a.domain,a.secure?"; secure":""].join("")}t||(s={});for(var c=document.cookie?document.cookie.split("; "):[],f=/(%[0-9A-Z]{2})+/g,l=0;l<c.length;l++){var h=c[l].split("="),u=h[0].replace(f,decodeURIComponent),m=h.slice(1).join("=");'"'===m.charAt(0)&&(m=m.slice(1,-1));try{if(m=n.read?n.read(m,u):n(m,u)||m.replace(f,decodeURIComponent),this.json)try{m=JSON.parse(m)}catch(r){}if(t===u){s=m;break}t||(s[u]=m)}catch(r){}}return s}}return i.set=i,i.get=function(e){return i(e)},i.getJSON=function(){return i.apply({json:!0},[].slice.call(arguments))},i.defaults={},i.remove=function(t,n){i(t,"",e(n,{expires:-1}))},i.withConverter=t,i}return t(function(){})});var demjquerywait=setInterval(function(){"undefined"!=typeof jQuery&&(clearInterval(demjquerywait),jQuery(document).ready(dem_ready))},50);</script>
+<script >
+/* <![CDATA[ */
+var tocplus = {"smooth_scroll":"1"};
+/* ]]> */
+</script>
+<script  src='https://miningbitcoinguide.com/wp-content/plugins/table-of-contents-plus/front.min.js?ver=1509'></script>
+<script >
+/* <![CDATA[ */
+var q2w3_sidebar_options = [{"sidebar":"widget-2","margin_top":10,"margin_bottom":250,"stop_id":"","screen_max_width":0,"screen_max_height":0,"width_inherit":false,"refresh_interval":1500,"window_load_hook":false,"disable_mo_api":false,"widgets":["ai_widget-9","ai_widget-8"]}];
+/* ]]> */
+</script>
+<script  src='https://miningbitcoinguide.com/wp-content/plugins/q2w3-fixed-widget/js/q2w3-fixed-widget.min.js?ver=5.1.9'></script>
+<script  src='https://miningbitcoinguide.com/wp-includes/js/wp-embed.min.js?ver=5.3.14'></script>
+ 
+</body>
+</html>
+<!-- Dynamic page generated in 0.496 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2023-01-18 14:02:26 -->
+
+<!-- super cache -->
